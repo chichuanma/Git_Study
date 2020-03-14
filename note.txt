@@ -1,0 +1,31 @@
+# 从GitHub网站克隆代码
+git clone http://****.git
+
+# 查看工作进程
+git status
+
+# 将工作区的code.txt加入到暂存区
+git add code.txt
+
+# 将暂存区的文件提交至某一版本
+git commit -m 'version_01'
+
+# 查看版本记录
+git log
+git log --graph --pretty=oneline
+
+# 版本回退
+git reset --hard HEAD^
+git reset --hard 版本序列号(版本序列号可在git log中查到)
+
+# 查看分支状态
+git branch
+
+# 创建并切换至新分支mcc
+git checkout -b mcc
+
+# 将本地分支代码推送至GitHub服务器上
+git push origin 分支名称
+
+# 将本地分支mcc跟踪远程分支mcc
+git branch --set-upstream-to=origin/mcc mcc
