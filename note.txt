@@ -26,6 +26,7 @@ git checkout -b mcc
 
 # 将本地分支代码推送至GitHub服务器上
 git push origin 分支名称
+此处或许需要用户名密码：吃穿吗生日
 
 # 将本地分支mcc跟踪远程分支mcc
 git branch --set-upstream-to=origin/mcc mcc
