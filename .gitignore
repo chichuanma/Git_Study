@@ -129,4 +129,10 @@ dmypy.json
 .pyre/
 
 # Latex
-.toc
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+._*
+.DS_Store
